@@ -1,0 +1,36 @@
+1. "Using the existing code, we would like to create a new layer displayed on top of the displayed image / slice and make this new layer editable using the mouse."
+Is created layer common for all slices or uniq for each one? 
+
+слой технически не может быть общим.  
+
+2. "User clicks in a given pixel location"
+What was meant by "given pixel location"? Coordiantes of single clicked pixel? All pixels with the color we picked from color picker? Is there anywhere we should take it from? 
+
+имеются в виду координаты одного кликаемого пикселя. 
+
+3. "At that pixel location, the color of the pixel is replaced with the color selected by the user" 
+Color replacement for single pixel at new layer, right? 
+
+палитра может быть любой. в задаче не стоит способ, как задается палитра, эта функция встроена в three. js 
+
+
+
+
+
+Pixel-based editing using a color selected by the user
+
+Description of the task
+
+Using the existing code, we would like to create a new layer displayed on top of the displayed image / slice and make this new layer editable using the mouse.
+
+By editable, we mean that:
+
+User selects a color from a color picker
+User goes to a given slice
+User clicks in a given pixel location
+At that pixel location, the color of the pixel is replaced with the color selected by the user
+
+What we expect from the developer:
+
+A high-level design (how he plan to implement the feature)
+The implementation of his design
